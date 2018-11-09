@@ -1,0 +1,126 @@
+Last login: Mon Oct 22 13:53:26 on ttys003
+➜  /usr cd ..
+➜  / ls
+Applications                       etc
+Library                            home
+Network                            installer.failurerequests
+System                             net
+Users                              opt
+Volumes                            private
+anaconda                           sbin
+bin                                tmp
+com.apple.adc.documentation.docset usr
+cores                              var
+dev                                vm
+➜  / cd Applications 
+➜  /Applications ls
+Adobe Creative Cloud     Keka.app                 Reminders.app
+Adobe Photoshop CC 2017  Keynote.app              Reveal.app
+Adobe XD CC              Launchpad.app            Safari.app
+Anaconda-Navigator.app   MWeb Lite.app            ShadowsocksX.app
+App Store.app            Mail.app                 Siri.app
+Automator.app            Maps.app                 Stickies.app
+BaiduNetdisk_mac.app     Messages.app             Sublime Text.app
+Calculator.app           Microsoft Excel.app      System Preferences.app
+Calendar.app             Microsoft OneNote.app    Telegram.app
+Charles.app              Microsoft PowerPoint.app TextEdit.app
+Chess.app                Microsoft Word.app       Thunder.app
+Contacts.app             Mission Control.app      Time Machine.app
+DVD Player.app           Notes.app                Utilities
+Dashboard.app            Numbers.app              WeChat.app
+Dictionary.app           Pages.app                Xcode.app
+Evernote.app             PaintCode Trial.app      iBooks.app
+FaceTime.app             Photo Booth.app          iTerm.app
+Font Book.app            Photos.app               iTunes.app
+GitUp.app                Postman.app              mpv
+Google Chrome.app        Preview.app              wechatwebdevtools.app
+IDLE 3.app               Python Launcher 3.app    印象笔记.app
+Image Capture.app        QQMusic.app
+Jason.app                QuickTime Player.app
+➜  /Applications cd Xcode.app 
+➜  Xcode.app cd Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include 
+➜  include ls 
+AppleTextureEncoder.h  editline               module.modulemap       spawn.h
+AssertMacros.h         err.h                  monetary.h             sqlite3.h
+Availability.h         errno.h                monitor.h              sqlite3ext.h
+AvailabilityInternal.h eti.h                  mpool.h                stab.h
+AvailabilityMacros.h   execinfo.h             nameser.h              standards.h
+Block.h                expat.h                nc_tparm.h             stddef.h
+CommonCrypto           expat_external.h       ncurses.h              stdint.h
+ConditionalMacros.h    fcntl.h                ncurses_dll.h          stdio.h
+Darwin.apinotes        fenv.h                 ndbm.h                 stdlib.h
+MacTypes.h             ffi                    net                    strhash.h
+NSSystemDirectories.h  float.h                net-snmp               string.h
+TargetConditionals.h   fmtmsg.h               netdb.h                stringlist.h
+Xplugin.h              fnmatch.h              netinet                strings.h
+__cxxabi_config.h      form.h                 netinet6               struct.h
+__wctype.h             fsproperties.h         netkey                 sys
+_ctype.h               fstab.h                nfs                    sysdir.h
+_locale.h              fts.h                  nl_types.h             sysexits.h
+_regex.h               ftw.h                  nlist.h                syslog.h
+_stdio.h               get_compat.h           notify.h               tar.h
+_types                 gethostuuid.h          notify_keys.h          tcl.h
+_types.h               getopt.h               ntsid.h                tclDecls.h
+_wctype.h              glob.h                 objc                   tclPlatDecls.h
+_xlocale.h             grp.h                  odmodule               tclTomMath.h
+aio.h                  gssapi                 opendirectory          tclTomMathDecls.h
+aliasdb.h              gssapi.h               os                     term.h
+alloca.h               hfs                    panel.h                term_entry.h
+apache2                histedit.h             paths.h                termcap.h
+apr-1                  i386                   pcap                   termios.h
+ar.h                   iconv.h                pcap-bpf.h             tgmath.h
+architecture           ifaddrs.h              pcap-namedb.h          tic.h
+arpa                   inttypes.h             pcap.h                 tidy
+asl.h                  iso646.h               pexpert                time.h
+assert.h               kern                   php                    timeconv.h
+atm                    krb5                   poll.h                 tk.h
+bank                   krb5.h                 printerdb.h            tkDecls.h
+bitstring.h            langinfo.h             printf.h               tkIntXlibDecls.h
+bootparams.h           launch.h               profile.h              tkMacOSX.h
+bootstrap.h            lber.h                 protocols              tkPlatDecls.h
+bsm                    lber_types.h           pthread                ttyent.h
+bzlib.h                ldap.h                 pthread.h              tzfile.h
+c++                    ldap_cdefs.h           pthread_impl.h         ucontext.h
+cache.h                ldap_features.h        pthread_spis.h         ulimit.h
+cache_callbacks.h      ldap_schema.h          pwd.h                  unctrl.h
+checkint.h             ldap_utf8.h            python2.7              unistd.h
+com_err.h              ldif.h                 ranlib.h               unwind.h
+complex.h              libc.h                 readline               util.h
+compression.h          libcharset.h           readpassphrase.h       utime.h
+copyfile.h             libexslt               regex.h                utmp.h
+corpses                libgen.h               removefile.h           utmpx.h
+cpio.h                 libkern                resolv.h               uuid
+crt_externs.h          libproc.h              rpc                    vfs
+ctype.h                libunwind.h            rpcsvc                 vis.h
+cups                   libxml2                rune.h                 voucher
+curl                   libxslt                runetype.h             vproc.h
+curses.h               limits.h               sandbox.h              wchar.h
+cxxabi.h               localcharset.h         sasl                   wctype.h
+db.h                   locale.h               sched.h                wordexp.h
+default_pager          mach                   search.h               xar
+device                 mach-o                 secure                 xattr_flags.h
+dirent.h               mach_debug             security               xlocale
+disktab.h              machine                semaphore.h            xlocale.h
+dispatch               malloc                 servers                xpc
+dlfcn.h                math.h                 setjmp.h               zconf.h
+dns.h                  membership.h           sgtty.h                zlib.h
+dns_sd.h               memory.h               signal.h
+dns_util.h             menu.h                 simd
+dtrace.h               miscfs                 slapi-plugin.h
+➜  include grep -rne "typedef.*os_unfair_lock" . 
+./os/lock.h:46: * @typedef os_unfair_lock
+./os/lock.h:78:typedef struct os_unfair_lock_s {
+./libkern/OSSpinLockDeprecated.h:79:typedef int32_t OSSpinLock OSSPINLOCK_DEPRECATED_REPLACE_WITH(os_unfair_lock);
+./libkern/OSSpinLockDeprecated.h:184:typedef int32_t OSSpinLock OSSPINLOCK_DEPRECATED_REPLACE_WITH(os_unfair_lock);
+➜  include grep -rne "OS_UNFAIR_LOCK_INIT" .
+./os/lock.h:65: * Must be initialized with OS_UNFAIR_LOCK_INIT
+./os/lock.h:82:#ifndef OS_UNFAIR_LOCK_INIT
+./os/lock.h:84:#define OS_UNFAIR_LOCK_INIT ((os_unfair_lock){0})
+./os/lock.h:86:#define OS_UNFAIR_LOCK_INIT (os_unfair_lock{})
+./os/lock.h:88:#define OS_UNFAIR_LOCK_INIT (os_unfair_lock())
+./os/lock.h:90:#define OS_UNFAIR_LOCK_INIT {0}
+./os/lock.h:92:#endif // OS_UNFAIR_LOCK_INIT
+➜  include grep -rne "DYLD_MACOSX_VERSION_10_11" .
+➜  include grep -re "DYLD_MACOSX_VERSION_10_11" . 
+➜  include grep -rne "_dyld_is_memory_immutable" .
+➜  include 
